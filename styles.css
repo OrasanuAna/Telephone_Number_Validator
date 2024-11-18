@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #28313b, #485461);
+  color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header {
+  text-align: center;
+  padding: 2rem;
+  background-color: #333;
+}
+
+.title {
+  font-size: 2.5rem;
+  color: #00c6ff;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: #ffb74d;
+}
+
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  padding: 2rem;
+}
+
+.validation-container {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.phone-icon {
+  width: 60px;
+  margin-bottom: 1rem;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.dropdown,
+.input-field {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-top: 0.5rem;
+  color: #333;
+}
+
+.input-field::placeholder {
+  color: #888;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.btn {
+  padding: 0.7rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.primary-btn {
+  background-color: #1e90ff;
+  color: #fff;
+}
+
+.primary-btn:hover {
+  background-color: #00bfff;
+}
+
+.secondary-btn {
+  background-color: #ff6b6b;
+  color: #fff;
+}
+
+.secondary-btn:hover {
+  background-color: #ff4757;
+}
+
+.results-div {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  font-size: 1.1rem;
+}
+
+.footer {
+  background-color: #333;
+  color: #ddd;
+  text-align: center;
+  padding: 1rem;
+}
+
+.footer p {
+  margin: 0.5rem 0;
+}
+
+.contact-info a {
+  color: #00c6ff;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  color: #00a8cc;
+}

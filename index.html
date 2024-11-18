@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Validator de Numere de Telefon</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="title">Validator de Numere de Telefon</h1>
+      <p class="subtitle">Pentru România & SUA</p>
+    </header>
+
+    <main class="main-content">
+      <div class="validation-container">
+        <!-- Iconă pentru ghid vizual -->
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/1827/1827379.png"
+          alt="Telefon Icon"
+          class="phone-icon"
+        />
+
+        <!-- Selectare țară -->
+        <div class="form-group">
+          <label for="country-select">Selectați țara:</label>
+          <select id="country-select" class="dropdown">
+            <option value="ro">România</option>
+            <option value="us">SUA</option>
+          </select>
+        </div>
+
+        <!-- Câmpul pentru introducerea numărului de telefon -->
+        <div class="form-group">
+          <input
+            type="text"
+            id="user-input"
+            class="input-field"
+            placeholder="Introduceți un număr de telefon"
+          />
+        </div>
+
+        <!-- Butoane pentru validare și ștergere -->
+        <div class="button-group">
+          <button id="check-btn" class="btn primary-btn">Validează</button>
+          <button id="clear-btn" class="btn secondary-btn">Șterge</button>
+        </div>
+
+        <!-- Zona pentru afișarea rezultatelor -->
+        <div id="results-div" class="results-div"></div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <p>
+        &copy; 2024 Validator de Numere de Telefon | Toate Drepturile Rezervate
+      </p>
+      <p class="contact-info">
+        Contact:
+        <a href="mailto:orasanu.anamaria19@gmail.com"
+          >orasanu.anamaria19@gmail.com</a
+        >
+      </p>
+    </footer>
+
+    <!-- Scriptul JavaScript pentru validare -->
+    <script src="script.js"></script>
+  </body>
+</html>
